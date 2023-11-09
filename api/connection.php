@@ -1,10 +1,10 @@
 <?php
 $servername = "aws.connect.psdb.cloud";
-$username = "mgkmd19l0nnwr29wg0ed";
-$password = "pscale_pw_SIl04X8ZQLKXTXz5V2CIAlMGIn58d7hAB1YRKCM5gYU";
+$username = "x47dpkdo8h444vcllq6e";
+$password = "pscale_pw_Sbwpx17SXysWnInCjDzvRhCEf8nOoCZZznT6SiMAYjZ";
 $dbname = "mariananailsatrist";
 
-echo"1";
+echo"2";
 
 
 // Create connection
