@@ -8,7 +8,7 @@ if($_POST['op'] == 1){
     echo($resp);
 }else if($_POST['op'] == 2){
     $inserUser = new Comercial();
-    $resp = $inserUser -> inserUser($_POST['nome']);
+    $resp = $inserUser -> inserUser($_POST['texto']);
     echo($resp);
 }
     
