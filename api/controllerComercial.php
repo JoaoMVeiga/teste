@@ -6,23 +6,20 @@ class Comercial
 {
 
     function getClientes($texto){
-
         global $conn;
-        $msg = "";
-        $sql = "";
-        
-        $sql = "INSERT INTO Exemplo (nome, idade)" .
-            " VALUES ('" . $texto . "', '22')";
-        
-        if ($conn->query($sql) === TRUE) {
-            $msg = "Sucesso";
-        } else {
-            $msg = "Error: " . $sql . "<br>" . $conn->error;
+
+        $dados = [];
+
+        $sql = "SELECT Exemplo.* FROM Exemplo";
+
+        $result = mysqli_query($conn, $sql);
+        if ($result && mysqli_num_rows($result) > 0) {
+            while ($row = mysqli_fetch_assoc($result)) {
+                array_push($dados, array('id' => $row['id'], 'name' => $row['name']));
+            }
         }
-        
-        $conn->close();
-        
-        return $msg;        
+
+        return (json_encode($dados, JSON_PRETTY_PRINT));    
 
     }
 
