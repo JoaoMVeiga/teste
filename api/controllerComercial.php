@@ -26,7 +26,16 @@ class Comercial
 
     function inserUser($nome){
 
+            global $conn;
 
+        // Assuming you have a table named 'Usuarios' with a column 'Nome'
+        $sql = "INSERT INTO Exemplo (Nome, Idade) VALUES ('$nome', '22')";
+
+        if (mysqli_query($conn, $sql)) {
+            return "Inserção bem-sucedida!";
+        } else {
+            return "Erro na inserção: " . mysqli_error($conn);
+        }
         
     }
 
