@@ -3,7 +3,7 @@ function ler(){
     
 let dadosPost = new FormData();
 
-dadosPost.append('op', 1);
+dadosPost.append('op', 2);
 dadosPost.append('texto', $("#nome").val());
 
 $.ajax({
@@ -21,7 +21,6 @@ $.ajax({
         // Assuming you want to display the updated data, you can parse the JSON
         console.log(response);
 
-        $("#dados").html(response)
     },
     error: function(xhr, status, error) {
         // Manipular o erro aqui
