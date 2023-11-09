@@ -19,9 +19,9 @@ $.ajax({
         console.log("Resposta bem-sucedida:", response);
         
         // Assuming you want to display the updated data, you can parse the JSON
-        console.log(jsonData);
+        console.log(response);
 
-        $("#dados").html(jsonData)
+        $("#dados").html(response)
     },
     error: function(xhr, status, error) {
         // Manipular o erro aqui
