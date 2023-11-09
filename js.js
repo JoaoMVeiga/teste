@@ -7,7 +7,7 @@ function inser(){
     dadosPost.append('texto', $("#nome").val());
     
     $.ajax({
-        url: "assets/model/modelComercial.php",
+        url: "api/modelComercial.php",
         method: "POST",
         data: dadosPost,
         cache: false,
