@@ -4,6 +4,7 @@ $username = "mgkmd19l0nnwr29wg0ed";
 $password = "pscale_pw_SIl04X8ZQLKXTXz5V2CIAlMGIn58d7hAB1YRKCM5gYU";
 $dbname = "mariananailsatrist";
 
+echo"1";
 
 
 // Create connection
