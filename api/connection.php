@@ -1,5 +1,5 @@
 <?php
-$servername = "aws.connect.psdb.cloud";
+$servername = "aws.connect.psdb.cloud/?sslaccept=strict";
 $username = "x47dpkdo8h444vcllq6e";
 $password = "pscale_pw_Sbwpx17SXysWnInCjDzvRhCEf8nOoCZZznT6SiMAYjZ";
 $dbname = "mariananailsatrist";
