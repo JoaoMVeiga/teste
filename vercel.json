@@ -1,10 +1,10 @@
 {
   "functions": {
     "api/controller/*": {
-      "runtime": "vercel-php@0.4.1"
+      "runtime": "vercel-php@^0.8.2"
     },
     "api/model/*": {
-      "runtime": "vercel-php@0.4.1"
+      "runtime": "vercel-php@^0.8.2"
     }
   }
   }
