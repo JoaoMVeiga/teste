@@ -31,7 +31,7 @@ $.ajax({
 
 }
 
-function inserir(){
+function inser(){
     
 let dadosPost = new FormData();
 
