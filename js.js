@@ -19,9 +19,6 @@ $.ajax({
         console.log("Resposta bem-sucedida:", response);
         
         // Assuming you want to display the updated data, you can parse the JSON
-        let jsonData = JSON.parse(response);
-        
-        // Do something with jsonData
         console.log(jsonData);
 
         $("#dados").html(jsonData)
