@@ -7,3 +7,4 @@ if($_POST['op'] == 1){
     $resp = $getClientes -> getClientes($_POST['texto']);
     echo($resp);
 }
+?>
