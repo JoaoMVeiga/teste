@@ -4,7 +4,7 @@ require_once 'controllerComercial.php';
 
 if($_POST['op'] == 1){
     $getClientes = new Comercial();
-    $resp = $getClientes -> getClientes($_POST['texto']);
+    $resp = $getClientes -> setClientes();
     echo($resp);
 }
 ?>
