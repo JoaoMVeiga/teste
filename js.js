@@ -17,9 +17,10 @@ $.ajax({
     success: function(response) {
         // Manipular a resposta de sucesso aqui
         console.log("Resposta bem-sucedida:", response);
-        
-        // Assuming you want to display the updated data, you can parse the JSON
-        console.log(response);
+
+
+
+        $("#dados").html(response)
 
     },
     error: function(xhr, status, error) {
@@ -49,10 +50,7 @@ $.ajax({
         // Manipular a resposta de sucesso aqui
         console.log("Resposta bem-sucedida:", response);
         
-        // Assuming you want to display the updated data, you can parse the JSON
-        console.log(jsonData);
 
-        $("#dados").html(jsonData)
     },
     error: function(xhr, status, error) {
         // Manipular o erro aqui
