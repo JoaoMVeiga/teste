@@ -1,7 +1,7 @@
 <?php
-$servername = "us-east.connect.psdb.cloud";
-$username = "q22jl9a79rsymx497jfd";
-$password = "pscale_pw_86DHhEdyEiF8LWxAM8dPmNcpo4kByYGSJZXLhkHmGkA";
+$servername = "aws.connect.psdb.cloud";
+$username = "mgkmd19l0nnwr29wg0ed";
+$password = "pscale_pw_SIl04X8ZQLKXTXz5V2CIAlMGIn58d7hAB1YRKCM5gYU";
 $dbname = "mariananailsatrist";
 
 
