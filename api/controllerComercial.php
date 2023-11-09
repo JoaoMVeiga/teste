@@ -20,7 +20,7 @@ class Comercial
             }
         }
     
-        return json_encode($dados, JSON_PRETTY_PRINT););    
+        return json_encode($dados, JSON_PRETTY_PRINT);    
     
         }
 
