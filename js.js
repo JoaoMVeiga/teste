@@ -3,7 +3,7 @@ function ler(){
     
 let dadosPost = new FormData();
 
-dadosPost.append('op', 2);
+dadosPost.append('op', 1);
 dadosPost.append('texto', $("#nome").val());
 
 $.ajax({
@@ -34,7 +34,7 @@ function inser(){
     
 let dadosPost = new FormData();
 
-dadosPost.append('op', 1);
+dadosPost.append('op', 2);
 dadosPost.append('texto', $("#nome").val());
 
 $.ajax({
