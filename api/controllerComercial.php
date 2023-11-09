@@ -5,7 +5,7 @@ require_once 'connection.php';
 class Comercial
 {
 
-    function getClientes($texto){
+    function setClientes(){
      global $conn;
     
         $dados = [];
