@@ -24,6 +24,12 @@ class Comercial
     
         }
 
+    function inserUser($nome){
+
+
+        
+    }
+
 }
 
 ?>
